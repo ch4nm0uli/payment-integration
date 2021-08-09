@@ -13,7 +13,7 @@ const parseJson = express.json({ extended: false });
 
 app.use(express.static("public"));
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 8080;
 
 app.get("/", (req, res) => {
   res.sendFile(__dirname + "/index.html");
