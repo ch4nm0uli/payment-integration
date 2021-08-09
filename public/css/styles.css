@@ -1,0 +1,30 @@
+
+
+body{
+
+  background-image: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+h1{
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.donate{
+  text-align: center;
+  margin-top: 10%;
+}
+
+.btn{
+  height: 50px;
+  width: 100px;
+  background-color:#F1F1F1;
+}
