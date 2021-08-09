@@ -3,8 +3,8 @@ const express = require("express");
 const https = require("https");
 const qs = require("querystring");
 
-const checksum_lib = require("./Paytm/checksum");
-const config = require("./Paytm/config");
+const checksum_lib = require(__dirname + "/Paytm/checksum");
+const config = require(__dirname + "/Paytm/config");
 
 const app = express();
 
